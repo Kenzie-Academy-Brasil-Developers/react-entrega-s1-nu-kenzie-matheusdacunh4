@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.total_money {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 96px;
+  width: 363px;
+}
+
+.total_money_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-left: 24px;
+  margin-bottom: 18px;
+}
+
+.total_money_title {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.total_money_sub {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+
+.total_money_value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.total_money_value_inner {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FD377E;
+}

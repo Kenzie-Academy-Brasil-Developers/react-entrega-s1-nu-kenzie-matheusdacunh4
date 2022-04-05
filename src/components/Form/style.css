@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Nunito:wght@200&display=swap");
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 351px;
+  width: 363px;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 38px;
+  margin-left: 24.5px;
+}
+
+.form_description_title {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212529;
+  margin-bottom: 12px;
+}
+
+.form_description_input {
+  height: 52.80000305175781px;
+  width: 314px;
+  left: 0px;
+  top: 34.0999755859375px;
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+}
+
+.form_description_ex {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+
+.form_value_type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form_value {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 24.5px;
+}
+
+.form_value_title {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212529;
+  margin-bottom: 9px;
+}
+
+.form_value_input {
+  height: 42px;
+  width: 128px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.form_type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 24.5px;
+}
+
+.form-button {
+  height: 48px;
+  width: 314px;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  padding: 13px, 20px, 13px, 20px;
+  background: #fd377e;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 38px;
+}
+
+.form_type_title {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px;
+}
+
+.form_type_select {
+  height: 48px;
+  width: 150px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  background-color: #f8f9fa;
+  color: #868e96;
+}
+
+.form_type_option {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}

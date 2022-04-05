@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.page-header {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  box-shadow: 0px 4px 32px -12px #00000040;
+  background-color: #f8f9fa;
+}
+
+.header-title {
+  text-align: center;
+  height: 19.5260009765625px;
+  width: 122.67755126953125px;
+  margin-left: 258px;
+}
+
+.header-title-nu {
+  font-size: larger;
+  color: #fd377e;
+  font-weight: 900;
+}
+
+.header-title-kenzie {
+  font-size: larger;
+  color: #212529;
+  font-weight: 900;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 463px;
+  width: 363px;
+  margin-top: 39px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+  margin-top: 39px;
+}
+
+.list-header {
+  width: 562px;
+  margin-bottom: 30px;
+}
+
+.list-title {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
